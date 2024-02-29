@@ -1,0 +1,24 @@
+spring:
+  datasource:
+    password: '@nani1434509W'
+    url: jdbc:mysql://localhost:3306/springboot
+    username: root
+  jpa:
+    hibernate:
+      ddl-auto: create
+    show-sql: true
+  mail:
+    host: smtp.gmail.com
+    password: ttfzxgezaacvhejg
+    port: 587
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+            required: true
+        transport:
+          protocol: smtp
+    username: itsnani502@gmail.com
+    
